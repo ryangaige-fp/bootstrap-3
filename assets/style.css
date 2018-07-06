@@ -1,0 +1,15 @@
+.header-section {
+  background: linear-gradient(to top, #6da1cb, #95c3e0, #a1cde6);
+}
+.leadr-header-logo {
+  font-family: "Pacifico", Helvetica, sans-serif;
+}
+
+body {
+  font-family: "lato", Helvetica, sans-serif;
+}
+
+.card-background {
+  background: none;
+  border: none;
+}
