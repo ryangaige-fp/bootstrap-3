@@ -1,9 +1,24 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 6.5rem;
+  padding-left: 0.5rem;
+}
+
 .header-section {
-  background: linear-gradient(to top, #6da1cb, #95c3e0, #a1cde6);
+  width: 100%;
+  background: url(/assets/photos/IphoneBGphoto.png),
+    linear-gradient(to top, #6da1cb, #95c3e0, #a1cde6);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right;
+  background-size: cover;
   height: 60vh;
 }
+
 .leadr-header-logo {
   font-family: "Pacifico", Helvetica, sans-serif;
+}
+
+.jumbo-design {
+  background: none;
 }
 
 body {
@@ -15,17 +30,12 @@ body {
   border: none;
 }
 
-.iphone-bg {
+/* .iphone-bg {
   background-image: url(/assets/photos/IphoneBGphoto.png);
-
-  /* Half height
-  height: 50%; */
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  background-position: center
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .bold {
   font-weight: 900;
@@ -40,19 +50,24 @@ body {
   font-weight: 300;
 }
 
-div {
+/* div {
   outline: solid black;
-}
+} */
 
 .apple-button {
   background-color: #6d99bb;
-  width: 20rem;
+  width: 15rem;
+  border-radius: 1rem;
+  color: white;
 }
+
 .fa-apple {
   color: white;
 }
 
 .android-button {
   background-color: #6d99bb;
-  width: 20rem;
+  width: 15rem;
+  border-radius: 1rem;
+  color: white;
 }

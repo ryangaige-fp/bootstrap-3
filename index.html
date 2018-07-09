@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
 
 
 </head>
@@ -19,46 +22,54 @@
 <body>
 
     <section class="header-section">
-        <div class="container-fluid">
-            <div class="row p-5">
-                <div class="col-8">
-                    <h3 class="leadr-header-logo text-white">109leadr</h3>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand leadr-header-logo text-white text-left" href="#">109leadr</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">FEATURE
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">START NOW</a>
+                        </li>
+
+                    </ul>
                 </div>
-                <div class="col-2 text-white ">
-                    <h5>FEATURE</h5>
-                </div>
-                <div class="col-2 text-white">
-                    <h5>START NOW</h5>
-                </div>
-            </div>
+            </nav>
 
             <div class="row">
-                <div class="col-12 col-sm-6 jobs-title">
+                <div class="col-sm-12 col-md-8 jobs-title text-sm-center text-md-left">
                     <h1>Your jobs,
                         <span class="bold">our news.</span>
                     </h1>
                     <p>109 Leadr Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium magnam
                         consequuntur aperiam labore quo excepturi, laudantium ipsum earum culpa, odio consectetur recusandae
                         in asperiores molestiae quam voluptatem veritatis architect</p>
-                    <div class="containter">
-                        <div class="col">
-                            <button type="button" class="btn apple-button">
-                                <i class="fab fa-apple"></i>Download for Apple</button>
 
-
-                            <button type="button" class="btn android-button">Download for Android</button>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 iphone-bg">
-
-
+                    <button type="button" class="btn apple-button my-1">
+                        <i class="fab fa-apple text-white pr-2"> </i>Download for Apple</button>
+                    <button type="button" class="btn android-button">
+                        <i class="fab fa-android pr-2"></i>Download for Android</button>
 
                 </div>
+                <!-- <div class="col-sm-12 col-md-4 iphone-bg">
+                   
+                </div> -->
             </div>
         </div>
-        </div>
+
+    </section>
+
+    <section>
+
 
 
 
