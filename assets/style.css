@@ -13,3 +13,45 @@ body {
   background: none;
   border: none;
 }
+
+.iphone-bg {
+  background-image: url(/assets/photos/IphoneBGphoto.png);
+
+  /* Half height
+  height: 50%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bold {
+  font-weight: 900;
+  color: white;
+}
+
+.jobs-title {
+  color: white;
+}
+
+.jobs-title h1 {
+  font-weight: 300;
+}
+
+div {
+  outline: solid black;
+}
+
+.apple-button {
+  background-color: #6d99bb;
+  width: 20rem;
+}
+.fa-apple {
+  color: white;
+}
+
+.android-button {
+  background-color: #6d99bb;
+  width: 20rem;
+}
