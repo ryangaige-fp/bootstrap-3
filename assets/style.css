@@ -1,5 +1,6 @@
 .header-section {
   background: linear-gradient(to top, #6da1cb, #95c3e0, #a1cde6);
+  height: 60vh;
 }
 .leadr-header-logo {
   font-family: "Pacifico", Helvetica, sans-serif;
