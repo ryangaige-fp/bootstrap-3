@@ -37,7 +37,14 @@ body {
 .middle-section {
   background: #fafafa;
 }
-.card-background {
+.card-1 {
+  background: none;
+  border: none;
+}
+.card-2 {
+  border: none;
+}
+.card-3 {
   background: none;
   border: none;
 }
